@@ -16,6 +16,25 @@
 		025F12A62AC1B0D300035CBE /* InlineConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F129D2AC1B0D300035CBE /* InlineConfigurable.swift */; };
 		025F12A72AC1B0D300035CBE /* BridgingCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F129E2AC1B0D300035CBE /* BridgingCollectionReusableView.swift */; };
 		025F12A82AC1B0D300035CBE /* HelloViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F129F2AC1B0D300035CBE /* HelloViewController.swift */; };
+		025F12BC2AC1B25A00035CBE /* DefaultLifeCycleListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12AC2AC1B25A00035CBE /* DefaultLifeCycleListener.swift */; };
+		025F12BD2AC1B25A00035CBE /* AnyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12AD2AC1B25A00035CBE /* AnyCoordinator.swift */; };
+		025F12BE2AC1B25A00035CBE /* ApplicationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12AE2AC1B25A00035CBE /* ApplicationRouter.swift */; };
+		025F12BF2AC1B25A00035CBE /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12AF2AC1B25A00035CBE /* BaseCoordinator.swift */; };
+		025F12C02AC1B25A00035CBE /* UINavigationController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12B12AC1B25A00035CBE /* UINavigationController+.swift */; };
+		025F12C12AC1B25A00035CBE /* AutomaticCoordinatorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12B22AC1B25A00035CBE /* AutomaticCoordinatorConfiguration.swift */; };
+		025F12C22AC1B25A00035CBE /* ModalPresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12B32AC1B25A00035CBE /* ModalPresentationStyle.swift */; };
+		025F12C32AC1B25A00035CBE /* ModalTransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12B42AC1B25A00035CBE /* ModalTransitionStyle.swift */; };
+		025F12C42AC1B25A00035CBE /* SystemNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12B62AC1B25A00035CBE /* SystemNavigation.swift */; };
+		025F12C52AC1B25A00035CBE /* LifeCycleListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12B72AC1B25A00035CBE /* LifeCycleListener.swift */; };
+		025F12C62AC1B25A00035CBE /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12B82AC1B25A00035CBE /* Routable.swift */; };
+		025F12C72AC1B25A00035CBE /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12B92AC1B25A00035CBE /* Presentable.swift */; };
+		025F12C82AC1B25A00035CBE /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12BA2AC1B25A00035CBE /* Transition.swift */; };
+		025F12C92AC1B25A00035CBE /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12BB2AC1B25A00035CBE /* Coordinator.swift */; };
+		025F12D22AC1B29200035CBE /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12CC2AC1B29200035CBE /* AuthCoordinator.swift */; };
+		025F12D32AC1B29200035CBE /* ApplicationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12CD2AC1B29200035CBE /* ApplicationCoordinator.swift */; };
+		025F12D42AC1B29200035CBE /* SystemNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12CE2AC1B29200035CBE /* SystemNavigationController.swift */; };
+		025F12D52AC1B29200035CBE /* ModuleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12D02AC1B29200035CBE /* ModuleFactory.swift */; };
+		025F12D62AC1B29200035CBE /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025F12D12AC1B29200035CBE /* CoordinatorFactory.swift */; };
 		02F8D66E2AC1A83900AF399D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8D66D2AC1A83900AF399D /* AppDelegate.swift */; };
 		02F8D6772AC1A83A00AF399D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F8D6762AC1A83A00AF399D /* Assets.xcassets */; };
 		02F8D67A2AC1A83A00AF399D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F8D6782AC1A83A00AF399D /* LaunchScreen.storyboard */; };
@@ -31,6 +50,25 @@
 		025F129D2AC1B0D300035CBE /* InlineConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineConfigurable.swift; sourceTree = "<group>"; };
 		025F129E2AC1B0D300035CBE /* BridgingCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgingCollectionReusableView.swift; sourceTree = "<group>"; };
 		025F129F2AC1B0D300035CBE /* HelloViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelloViewController.swift; sourceTree = "<group>"; };
+		025F12AC2AC1B25A00035CBE /* DefaultLifeCycleListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLifeCycleListener.swift; sourceTree = "<group>"; };
+		025F12AD2AC1B25A00035CBE /* AnyCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCoordinator.swift; sourceTree = "<group>"; };
+		025F12AE2AC1B25A00035CBE /* ApplicationRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationRouter.swift; sourceTree = "<group>"; };
+		025F12AF2AC1B25A00035CBE /* BaseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		025F12B12AC1B25A00035CBE /* UINavigationController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+.swift"; sourceTree = "<group>"; };
+		025F12B22AC1B25A00035CBE /* AutomaticCoordinatorConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutomaticCoordinatorConfiguration.swift; sourceTree = "<group>"; };
+		025F12B32AC1B25A00035CBE /* ModalPresentationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalPresentationStyle.swift; sourceTree = "<group>"; };
+		025F12B42AC1B25A00035CBE /* ModalTransitionStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalTransitionStyle.swift; sourceTree = "<group>"; };
+		025F12B62AC1B25A00035CBE /* SystemNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemNavigation.swift; sourceTree = "<group>"; };
+		025F12B72AC1B25A00035CBE /* LifeCycleListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LifeCycleListener.swift; sourceTree = "<group>"; };
+		025F12B82AC1B25A00035CBE /* Routable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		025F12B92AC1B25A00035CBE /* Presentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		025F12BA2AC1B25A00035CBE /* Transition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		025F12BB2AC1B25A00035CBE /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		025F12CC2AC1B29200035CBE /* AuthCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		025F12CD2AC1B29200035CBE /* ApplicationCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationCoordinator.swift; sourceTree = "<group>"; };
+		025F12CE2AC1B29200035CBE /* SystemNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SystemNavigationController.swift; sourceTree = "<group>"; };
+		025F12D02AC1B29200035CBE /* ModuleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModuleFactory.swift; sourceTree = "<group>"; };
+		025F12D12AC1B29200035CBE /* CoordinatorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
 		02F8D66A2AC1A83900AF399D /* Templates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Templates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02F8D66D2AC1A83900AF399D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02F8D6762AC1A83A00AF399D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,6 +110,79 @@
 			name = Modules;
 			sourceTree = "<group>";
 		};
+		025F12AA2AC1B25A00035CBE /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				025F12AB2AC1B25A00035CBE /* Core */,
+				025F12B02AC1B25A00035CBE /* Common */,
+				025F12B52AC1B25A00035CBE /* Protocols */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		025F12AB2AC1B25A00035CBE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				025F12AC2AC1B25A00035CBE /* DefaultLifeCycleListener.swift */,
+				025F12AD2AC1B25A00035CBE /* AnyCoordinator.swift */,
+				025F12AE2AC1B25A00035CBE /* ApplicationRouter.swift */,
+				025F12AF2AC1B25A00035CBE /* BaseCoordinator.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		025F12B02AC1B25A00035CBE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				025F12B12AC1B25A00035CBE /* UINavigationController+.swift */,
+				025F12B22AC1B25A00035CBE /* AutomaticCoordinatorConfiguration.swift */,
+				025F12B32AC1B25A00035CBE /* ModalPresentationStyle.swift */,
+				025F12B42AC1B25A00035CBE /* ModalTransitionStyle.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		025F12B52AC1B25A00035CBE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				025F12B62AC1B25A00035CBE /* SystemNavigation.swift */,
+				025F12B72AC1B25A00035CBE /* LifeCycleListener.swift */,
+				025F12B82AC1B25A00035CBE /* Routable.swift */,
+				025F12B92AC1B25A00035CBE /* Presentable.swift */,
+				025F12BA2AC1B25A00035CBE /* Transition.swift */,
+				025F12BB2AC1B25A00035CBE /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		025F12CA2AC1B26500035CBE /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				025F12962AC1B0D300035CBE /* Bridge */,
+				025F12AA2AC1B25A00035CBE /* Factory */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		025F12CB2AC1B29200035CBE /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				025F12CC2AC1B29200035CBE /* AuthCoordinator.swift */,
+				025F12CD2AC1B29200035CBE /* ApplicationCoordinator.swift */,
+				025F12CE2AC1B29200035CBE /* SystemNavigationController.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		025F12CF2AC1B29200035CBE /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				025F12D02AC1B29200035CBE /* ModuleFactory.swift */,
+				025F12D12AC1B29200035CBE /* CoordinatorFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
 		02F8D6612AC1A83900AF399D = {
 			isa = PBXGroup;
 			children = (
@@ -91,8 +202,10 @@
 		02F8D66C2AC1A83900AF399D /* Templates */ = {
 			isa = PBXGroup;
 			children = (
+				025F12CB2AC1B29200035CBE /* Coordinators */,
+				025F12CF2AC1B29200035CBE /* Factories */,
+				025F12CA2AC1B26500035CBE /* Base */,
 				02F8D6822AC1A8C200AF399D /* App */,
-				025F12962AC1B0D300035CBE /* Bridge */,
 				025F12A92AC1B10500035CBE /* Modules */,
 				02F8D6812AC1A89300AF399D /* Supporting Files */,
 			);
@@ -188,14 +301,33 @@
 			buildActionMask = 2147483647;
 			files = (
 				02F8D66E2AC1A83900AF399D /* AppDelegate.swift in Sources */,
+				025F12C62AC1B25A00035CBE /* Routable.swift in Sources */,
 				025F12A82AC1B0D300035CBE /* HelloViewController.swift in Sources */,
 				025F12A32AC1B0D300035CBE /* BridgingRestrictedTableViewCell.swift in Sources */,
+				025F12BE2AC1B25A00035CBE /* ApplicationRouter.swift in Sources */,
+				025F12D22AC1B29200035CBE /* AuthCoordinator.swift in Sources */,
+				025F12BD2AC1B25A00035CBE /* AnyCoordinator.swift in Sources */,
+				025F12C12AC1B25A00035CBE /* AutomaticCoordinatorConfiguration.swift in Sources */,
 				025F12A72AC1B0D300035CBE /* BridgingCollectionReusableView.swift in Sources */,
+				025F12C92AC1B25A00035CBE /* Coordinator.swift in Sources */,
 				025F12A42AC1B0D300035CBE /* BridgingCollectionViewCell.swift in Sources */,
+				025F12C72AC1B25A00035CBE /* Presentable.swift in Sources */,
 				025F12A62AC1B0D300035CBE /* InlineConfigurable.swift in Sources */,
+				025F12BC2AC1B25A00035CBE /* DefaultLifeCycleListener.swift in Sources */,
 				025F12A02AC1B0D300035CBE /* RestrictedUIHostingController.swift in Sources */,
+				025F12D32AC1B29200035CBE /* ApplicationCoordinator.swift in Sources */,
 				025F12A52AC1B0D300035CBE /* UIViewController+Extension.swift in Sources */,
+				025F12C02AC1B25A00035CBE /* UINavigationController+.swift in Sources */,
+				025F12D42AC1B29200035CBE /* SystemNavigationController.swift in Sources */,
+				025F12D62AC1B29200035CBE /* CoordinatorFactory.swift in Sources */,
+				025F12BF2AC1B25A00035CBE /* BaseCoordinator.swift in Sources */,
+				025F12D52AC1B29200035CBE /* ModuleFactory.swift in Sources */,
+				025F12C82AC1B25A00035CBE /* Transition.swift in Sources */,
+				025F12C32AC1B25A00035CBE /* ModalTransitionStyle.swift in Sources */,
+				025F12C22AC1B25A00035CBE /* ModalPresentationStyle.swift in Sources */,
+				025F12C52AC1B25A00035CBE /* LifeCycleListener.swift in Sources */,
 				025F12A22AC1B0D300035CBE /* UIView+Extensions.swift in Sources */,
+				025F12C42AC1B25A00035CBE /* SystemNavigation.swift in Sources */,
 				025F12A12AC1B0D300035CBE /* BridgedView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
